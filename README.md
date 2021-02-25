@@ -1,8 +1,10 @@
 # threads
 Mes threads ouverts ou auxquels j'ai contribué (depuis marques pages FF et autres)
 
-## Export manuel
-Exporter depuis Firefox, filtrer (en gros ce qui utile à l'informatique), convertir avec ```cat bookmarks |gawk '{ print gensub ( /[^"]+"([^"]+)"[^>]+>([^<]+)<.+/ , "[\\2](\\1)\n" , "g" ) }'``` (nécessite gawk)
+## Export manuel en markdown
+Dans l'attente d'exporter automatiquement avec GIT.
+
+Exporter depuis Firefox, filtrer (en gros ce qui utile à l'informatique), convertir avec ```cat bookmarks |gawk '{ print gensub ( /[^"]+"([^"]+)"[^>]+>([^<]+)<.+/ , "[\\2](\\1)\n" , "g" ) }'``` (nécessite gawk) ; la sortie peut être directement copiée/collée ici.
 
 ## Actuels (export manuel)
 [Geckozone • Consulter le sujet - lightning popup rappel non recyclée](http://forums.mozfr.org/viewtopic.php?f=4&t=115945)
