@@ -1,5 +1,5 @@
 # threads
-mes thread ouvert ou contribués (depuis marques pages FF et autres)
+Mes thread ouverts ou auxquels j'ai contribué (depuis marques pages FF et autres)
 
 ## Export manuel
 Exporter depuis Firefox, filtrer (en gros ce qui utile à l'informatique), convertir avec ```cat bookmarks |gawk '{ print gensub ( /[^"]+"([^"]+)"[^>]+>([^<]+)<.+/ , "[\\2](\\1)\n" , "g" ) }'``` (nécessite gawk)
